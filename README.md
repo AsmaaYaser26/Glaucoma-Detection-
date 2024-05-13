@@ -1,10 +1,17 @@
-# Glaucoma-Detection
-Deep learning project 
+# Glaucoma Detection using Deep Learning
 
-## Description 
-Glaucoma is a common eye condition where the optic nerve, which connects the eye to the brain, becomes damaged and can cause sight loss. So, this project will do:
-Early Detection Of Glaucoma Using Deep Learning. Fundus images are used gor this problem. A fundus image which is an ocular documentation that records the appearance of a patient’s retina and optic nerve.
-Data augmentation is done to increase the number of images to be trained and by result enhancing the model performance.
-The binary classification is done using a built neural network (model) using tensorflow layers.
-The acheived test accuracy is 99%.
+This repository contains the implementation of a binary classification model for Glaucoma detection using Deep Learning techniques.
+
+## Project Description
+
+Glaucoma is a serious eye disease that can lead to irreversible vision loss if not detected early. This project aims to leverage the power of Deep Learning to detect Glaucoma from eye images, which can greatly assist in early detection and treatment.
+
+## Dataset
+
+The dataset used in this project consists of eye images labeled as ‘Glaucoma’ or ‘Healthy’. 
+You can view the dataset from:https://drive.google.com/drive/folders/1XvASwK9TqP39RY1qhN8k1xyFKCXW2b_D?usp=sharing
+
+## Model and Evaluation 
+This project used TensorFlow Sequential layers to build a neural network.
+The acheived accuracy was:97%.
 
